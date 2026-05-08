@@ -111,3 +111,22 @@ idea {
         downloadJavadoc = true
     }
 }
+
+def generatedDir = layout.projectDirectory.dir("src/generated")
+
+tasks.register('cleanDataGen') {
+    group = 'verification'
+    doFirst {
+        File genDir = generatedDir.asFile
+        if (genDir.exists()) {
+            // 重点：不要只删 resources，要连带 .cache 一起删掉
+            // DataGen 发现没有 .cache 文件夹时，会直接进入“全新生成”模式，不再对比哈希
+            genDir.deleteDir()
+            println "已完全清理生成目录及缓存索引。"
+        }
+    }
+}
+
+tasks.matching { it.name.startsWith('runData') }.all {
+    dependsOn cleanDataGen
+}

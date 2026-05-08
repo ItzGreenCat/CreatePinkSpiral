@@ -1,7 +1,10 @@
 package dev.onyxcat.pinkspiral.event;
 
 import dev.onyxcat.pinkspiral.PinkSpiral;
+import dev.onyxcat.pinkspiral.blocks.ModBlock;
 import dev.onyxcat.pinkspiral.items.ModItem;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -10,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
 
 @EventBusSubscriber(modid = PinkSpiral.MODID)
@@ -31,5 +35,12 @@ public class ModEvents {
                 }
             }
         }
+    }
+    @SubscribeEvent
+    public static void onClientSetup(FMLClientSetupEvent event) {
+        event.enqueueWork(() -> {
+            // 这一行是解决黑框的关键
+            ItemBlockRenderTypes.setRenderLayer(ModBlock.SOY_BLOCK.get(), RenderType.cutout());
+        });
     }
 }

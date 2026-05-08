@@ -14,5 +14,6 @@
   "item.createpinkspiral.sterol_precursor": "Sterol Precursor",
   "item.createpinkspiral.valeric_acid_bottle": "Valeric Acid Bottle",
   "item.createpinkspiral.valeric_acid_crystal": "Valeric Acid Crystal",
-  "item.createpinkspiral.valeric_acid_powder": "Valeric Acid Powder"
+  "item.createpinkspiral.valeric_acid_powder": "Valeric Acid Powder",
+  "itemGroup.pinkspiral.tab": "Create: Pink Spiral"
 }

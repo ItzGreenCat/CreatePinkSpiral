@@ -28,5 +28,7 @@ public class ModDataGenerator {
         generator.addProvider(event.includeServer(), new ModPressingRecipeGen(output, registries, modid));
         generator.addProvider(event.includeServer(), new ModDeployingRecipeGen(output, registries, modid));
         generator.addProvider(event.includeServer(), new ModRecipeProvider(output, registries));
+
+        generator.addProvider(event.includeClient(), new MergingLanguageProvider(output, modid,"en_us"));
     }
 }
