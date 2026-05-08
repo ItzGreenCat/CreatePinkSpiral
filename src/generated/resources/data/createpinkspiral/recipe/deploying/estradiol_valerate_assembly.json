@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createpinkspiral:estradiol"
+    },
+    {
+      "item": "createpinkspiral:valeric_acid_bottle"
+    }
+  ],
+  "results": [
+    {
+      "id": "createpinkspiral:estradiol_valerate"
+    }
+  ]
+}

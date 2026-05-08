@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createpinkspiral:sterol_precursor"
+    }
+  ],
+  "results": [
+    {
+      "id": "createpinkspiral:estradiol"
+    }
+  ]
+}

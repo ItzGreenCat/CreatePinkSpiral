@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "createpinkspiral:crude_fermented_acid"
+    }
+  ],
+  "results": [
+    {
+      "id": "createpinkspiral:valeric_acid_crystal"
+    }
+  ]
+}

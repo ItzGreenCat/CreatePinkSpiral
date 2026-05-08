@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "createpinkspiral:sterol"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "processing_time": 350,
+  "results": [
+    {
+      "id": "createpinkspiral:sterol_precursor"
+    }
+  ]
+}

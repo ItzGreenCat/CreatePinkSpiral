@@ -1,0 +1,18 @@
+{
+  "block.createpinkspiral.crude_fermented_acid": "Crude Fermented Acid",
+  "block.createpinkspiral.soybean_crop": "Soybean Crop",
+  "block.createpinkspiral.soybean_oil": "Soybean Oil",
+  "fluid.createpinkspiral.crude_fermented_acid": "Crude Fermented Acid",
+  "fluid.createpinkspiral.soybean_oil": "Soybean Oil",
+  "item.createpinkspiral.crude_fermented_acid_bucket": "Crude Fermented Acid",
+  "item.createpinkspiral.estradiol": "Estradiol",
+  "item.createpinkspiral.estradiol_valerate": "Estradiol Valerate",
+  "item.createpinkspiral.soy_flour": "Soy Flour",
+  "item.createpinkspiral.soybean": "SoyBean",
+  "item.createpinkspiral.soybean_oil_bucket": "Soy Oil Bucket",
+  "item.createpinkspiral.sterol": "Sterol",
+  "item.createpinkspiral.sterol_precursor": "Sterol Precursor",
+  "item.createpinkspiral.valeric_acid_bottle": "Valeric Acid Bottle",
+  "item.createpinkspiral.valeric_acid_crystal": "Valeric Acid Crystal",
+  "item.createpinkspiral.valeric_acid_powder": "Valeric Acid Powder"
+}

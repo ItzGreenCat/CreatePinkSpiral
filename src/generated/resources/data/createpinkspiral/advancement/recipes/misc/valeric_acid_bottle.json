@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "createpinkspiral:valeric_acid_bottle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_valeric_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "createpinkspiral:valeric_acid_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_valeric_powder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "createpinkspiral:valeric_acid_bottle"
+    ]
+  }
+}

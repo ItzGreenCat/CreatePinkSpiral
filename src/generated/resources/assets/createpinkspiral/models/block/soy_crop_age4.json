@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "createpinkspiral:block/soy_crop_age4"
+  }
+}

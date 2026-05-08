@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createpinkspiral:valeric_acid_crystal"
+    }
+  ],
+  "results": [
+    {
+      "id": "createpinkspiral:valeric_acid_powder"
+    }
+  ]
+}

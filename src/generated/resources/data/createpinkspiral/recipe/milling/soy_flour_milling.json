@@ -1,0 +1,18 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "createpinkspiral:soybean"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "createpinkspiral:soy_flour"
+    },
+    {
+      "chance": 0.3,
+      "id": "createpinkspiral:soy_flour"
+    }
+  ]
+}

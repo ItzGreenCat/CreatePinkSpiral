@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "createpinkspiral:soybean_oil"
+    }
+  ],
+  "processing_time": 800,
+  "results": [
+    {
+      "id": "createpinkspiral:sterol"
+    },
+    {
+      "chance": 0.1,
+      "id": "createpinkspiral:sterol"
+    },
+    {
+      "chance": 0.01,
+      "count": 2,
+      "id": "createpinkspiral:sterol"
+    }
+  ]
+}
