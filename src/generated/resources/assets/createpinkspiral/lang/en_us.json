@@ -7,6 +7,10 @@
   "item.createpinkspiral.crude_fermented_acid_bucket": "Crude Fermented Acid",
   "item.createpinkspiral.estradiol": "Estradiol",
   "item.createpinkspiral.estradiol_valerate": "Estradiol Valerate",
+  "item.createpinkspiral.hormone_monitor": "Hormone Monitor",
+  "item.createpinkspiral.meowgynova": "Meowgynova",
+  "item.createpinkspiral.meowgynova_box": "Meowgynova Box",
+  "item.createpinkspiral.meowgynova_core": "Meowgynova Core",
   "item.createpinkspiral.soy_flour": "Soy Flour",
   "item.createpinkspiral.soybean": "SoyBean",
   "item.createpinkspiral.soybean_oil_bucket": "Soy Oil Bucket",
@@ -15,5 +19,11 @@
   "item.createpinkspiral.valeric_acid_bottle": "Valeric Acid Bottle",
   "item.createpinkspiral.valeric_acid_crystal": "Valeric Acid Crystal",
   "item.createpinkspiral.valeric_acid_powder": "Valeric Acid Powder",
-  "itemGroup.pinkspiral.tab": "Create: Pink Spiral"
+  "itemGroup.pinkspiral.tab": "Create: Pink Spiral",
+  "msg.pinkspiral.current_concentration": "Estradiol Concentration",
+  "msg.pinkspiral.effect_precision_increase": "Precision Increase",
+  "msg.pinkspiral.effect_strength_reduction": "Strength Reduction",
+  "msg.pinkspiral.hormone_overload": "You eat too much Meowgynova in one day",
+  "msg.pinkspiral.monitor_report_header": "Hormone Monitor",
+  "msg.pinkspiral.today_dose": "Today Dose"
 }

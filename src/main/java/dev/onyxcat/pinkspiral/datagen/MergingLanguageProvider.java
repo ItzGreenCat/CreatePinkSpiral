@@ -27,6 +27,12 @@ public class MergingLanguageProvider extends LanguageProvider {
     protected void addTranslations() {
         loadExistingTranslations();
         add("itemGroup.pinkspiral.tab", "Create: Pink Spiral");
+        add("msg.pinkspiral.hormone_overload","You eat too much Meowgynova in one day");
+        add("msg.pinkspiral.monitor_report_header","Hormone Monitor");
+        add("msg.pinkspiral.current_concentration","Estradiol Concentration");
+        add("msg.pinkspiral.today_dose","Today Dose");
+        add("msg.pinkspiral.effect_strength_reduction","Strength Reduction");
+        add("msg.pinkspiral.effect_precision_increase","Precision Increase");
     }
 
     private void loadExistingTranslations() {

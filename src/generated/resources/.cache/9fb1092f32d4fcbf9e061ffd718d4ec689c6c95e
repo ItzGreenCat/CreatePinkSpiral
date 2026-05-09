@@ -1,3 +1,11 @@
-// 1.21.1	2026-05-08T23:40:17.0963358	Recipes
+// 1.21.1	2026-05-09T15:11:17.9067366	Recipes
+b13e834395303e8904f3bf32efe7ce591aab1e51 data/createpinkspiral/advancement/recipes/misc/meowgynova.json
+8d6801a45e2ae5fba89bf9e80bc6340da617f254 data/createpinkspiral/advancement/recipes/misc/meowgynova_box.json
+6186f66aae6a78679bc9fd18adedd078a427741e data/createpinkspiral/advancement/recipes/misc/meowgynova_core.json
 d657172403cf4e68e21b859aa783210b05fac588 data/createpinkspiral/advancement/recipes/misc/valeric_acid_bottle.json
+aee466ac389d0e359b69785ebb1bccfc40d34dc8 data/createpinkspiral/advancement/recipes/tools/hormone_monitor.json
+03873daee247393f0bc5c753d8baba01ce5d0193 data/createpinkspiral/recipe/hormone_monitor.json
+b66291b6263f1efb6cc619fcd9566360b64d8edc data/createpinkspiral/recipe/meowgynova.json
+6cfb44ba1e3fa75324195d6de1d64cce4450e4a9 data/createpinkspiral/recipe/meowgynova_box.json
+46015827daf87f861d3b9649dde08fad507fdff5 data/createpinkspiral/recipe/meowgynova_core.json
 f5d131bca92fb938c064feb16aea57fb3cfb328b data/createpinkspiral/recipe/valeric_acid_bottle.json

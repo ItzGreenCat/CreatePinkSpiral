@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "create:electron_tube"
+    },
+    "G": {
+      "item": "create:golden_sheet"
+    },
+    "M": {
+      "item": "createpinkspiral:meowgynova"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "Q": {
+      "item": "create:polished_rose_quartz"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "PRP",
+    "DMD",
+    "QGQ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "createpinkspiral:meowgynova_core"
+  }
+}

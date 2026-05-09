@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "P": {
+      "item": "create:copper_sheet"
+    },
+    "T": {
+      "item": "minecraft:compass"
+    }
+  },
+  "pattern": [
+    " G ",
+    "ETE",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "createpinkspiral:hormone_monitor"
+  }
+}

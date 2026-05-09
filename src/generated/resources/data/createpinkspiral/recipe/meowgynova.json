@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "createpinkspiral:estradiol_valerate"
+    },
+    "W": {
+      "item": "createpinkspiral:meowgynova_box"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PWP",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "createpinkspiral:meowgynova"
+  }
+}

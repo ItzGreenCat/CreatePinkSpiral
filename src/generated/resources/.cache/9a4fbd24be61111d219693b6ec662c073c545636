@@ -1,9 +1,9 @@
-// 1.21.1	2026-05-08T23:40:17.0953357	Registrate Provider for createpinkspiral [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (blocks), Tags (enchantments), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+// 1.21.1	2026-05-09T15:11:17.9046294	Registrate Provider for createpinkspiral [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (blocks), Tags (enchantments), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
 71b8fd36734e7f73559908f28041d9291dc8f6d9 assets/createpinkspiral/blockstates/crude_fermented_acid.json
 4e4e7236d88ff19628588d1a00a9e5fd33fd9544 assets/createpinkspiral/blockstates/soybean_crop.json
 23bc3d86002c7216d96c2686772a8d51143aee44 assets/createpinkspiral/blockstates/soybean_oil.json
-037bfebc810701950933e440e6ec7504d06cc772 assets/createpinkspiral/lang/en_ud.json
-a2cb54b00e10d5c59c9aba2fd8c6aff14b8cfaf9 assets/createpinkspiral/lang/en_us.json
+a0340fcbd232ce6c3db9221fb33ef11a0f7c85ee assets/createpinkspiral/lang/en_ud.json
+126bd0847b20c374cd0fcc6f28203825e8c60c6d assets/createpinkspiral/lang/en_us.json
 35be4ab8750101b873a8646049991d82aa82b32c assets/createpinkspiral/models/block/crude_fermented_acid.json
 afeafbb806d6cd1e32636fe540494fe6bd492117 assets/createpinkspiral/models/block/soybean_oil.json
 11ba5ddafae8639404c503e5dce543646c93b404 assets/createpinkspiral/models/block/soy_crop_age0.json
@@ -17,6 +17,10 @@ c1537cc1e4eceaaa734eecfb52c6f478bdcd4d92 assets/createpinkspiral/models/block/so
 15681acac31476b8c3a154dd3a36de5fee50d6f6 assets/createpinkspiral/models/item/crude_fermented_acid_bucket.json
 2303f33e01f75dce68be80611ffe03473a49a714 assets/createpinkspiral/models/item/estradiol.json
 61959060dd43e4d3eb62a5a6a636982d2c7837e4 assets/createpinkspiral/models/item/estradiol_valerate.json
+63ccd47580b2579812860b5063517683291b257f assets/createpinkspiral/models/item/hormone_monitor.json
+574fc4da7e12247f27db041cf5bf8d0d952a7a06 assets/createpinkspiral/models/item/meowgynova.json
+ae456febbc6e29263574e2527bd01f0d90271cc8 assets/createpinkspiral/models/item/meowgynova_box.json
+44f3490e95fc4d1a828f8d6c8d86575f971dbdb3 assets/createpinkspiral/models/item/meowgynova_core.json
 2eaa01bb526a94cf4905d95c91f1d5ef214b12a5 assets/createpinkspiral/models/item/soybean.json
 d6c3f9b0f0aa64ccee776913ce6cae736b30717b assets/createpinkspiral/models/item/soybean_oil_bucket.json
 d79404533df8afee18ce9e60e8d0460fd6e0511f assets/createpinkspiral/models/item/soy_flour.json

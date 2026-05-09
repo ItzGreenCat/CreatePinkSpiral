@@ -1,22 +1,11 @@
 package dev.onyxcat.pinkspiral.items;
 
-import com.simibubi.create.AllRecipeTypes;
-import com.simibubi.create.api.data.recipe.BaseRecipeProvider;
-import com.simibubi.create.content.kinetics.millstone.MillingRecipe;
-import com.simibubi.create.content.processing.recipe.ProcessingOutput;
-import com.simibubi.create.content.processing.recipe.ProcessingRecipeBuilder;
-import com.simibubi.create.content.processing.recipe.ProcessingRecipeParams;
 import com.tterrag.registrate.util.entry.ItemEntry;
 import dev.onyxcat.pinkspiral.PinkSpiral;
 import dev.onyxcat.pinkspiral.blocks.ModBlock;
 import dev.onyxcat.pinkspiral.fluids.ModFluid;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.world.item.BucketItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemNameBlockItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.neoforged.fml.common.Mod;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.*;
 import net.neoforged.neoforge.common.Tags;
 
 public class ModItem {
@@ -64,6 +53,25 @@ public class ModItem {
     public static final ItemEntry<Item> ESTRADIOL_VALERATE = PinkSpiral.REGISTRATE
             .item("estradiol_valerate",Item::new)
             .lang("Estradiol Valerate").model((c,p) -> p.generated(c))
+            .register();
+    public static final ItemEntry<Item> MEOWGYNOVA_BOX = PinkSpiral.REGISTRATE
+            .item("meowgynova_box",Item::new)
+            .lang("Meowgynova Box").model((c,p) -> p.generated(c))
+            .register();
+    public static final ItemEntry<MeowgynovaItem> MEOWGYNOVA = PinkSpiral.REGISTRATE
+            .item("meowgynova",MeowgynovaItem::new)
+            .lang("Meowgynova").model((c,p) -> p.generated(c))
+            .properties(p -> p.rarity(Rarity.RARE).food(new FoodProperties.Builder().alwaysEdible().nutrition(1).saturationModifier(0.1F).build()))
+            .register();
+    public static final ItemEntry<Item> HORMONE_MONITOR = PinkSpiral.REGISTRATE
+            .item("hormone_monitor", Item::new)
+            .lang("Hormone Monitor")
+            .properties(p -> p.stacksTo(1)).model((c,p) -> p.generated(c))
+            .register();
+    public static final ItemEntry<Item> MEOWGYNOVA_CORE = PinkSpiral.REGISTRATE
+            .item("meowgynova_core",Item::new)
+            .lang("Meowgynova Core").model((c,p) -> p.generated(c))
+            .properties(p -> p.rarity(Rarity.EPIC))
             .register();
     public static void register(){
         System.out.println("[PinkSpiral] Loaded Mod Items");

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "W": {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "pattern": [
+    " P ",
+    "PWP",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "createpinkspiral:meowgynova_box"
+  }
+}
